@@ -20,7 +20,7 @@ int charToInt(char c) {
 	if ( isLittleLetter(c) ) return (c - 'a');
 	if ( isBigLetter(c) ) return (c - 'A');
 	throw std::invalid_argument("The character can be only digit or letter");
-	}
+}
 
 
 Number::Number() : _integer(1, 0), _base(10) {}
